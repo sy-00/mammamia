@@ -9,13 +9,14 @@ body {
 
 header, section {
   padding: 3rem;
-  margin: 3rem;
+  margin: 3rem auto;
   width: 100%;
   max-width: 800px;
   background: #fef0f5;
   border-radius: 20px;
   box-shadow: 0 0 27px rgba(250, 185, 195, 0.5);
   animation: fadeIn 1.3s ease-out;
+  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
