@@ -17,6 +17,9 @@ header, section {
   box-shadow: 0 0 27px rgba(250, 185, 195, 0.5);
   animation: fadeIn 1.3s ease-out;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
