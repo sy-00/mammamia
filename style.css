@@ -3,7 +3,7 @@ body {
   background: #722b49;
   color: #4a4a4a;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   text-align: center;
 }
 
@@ -15,6 +15,14 @@ header, section {
   border-radius: 20px;
   box-shadow: 0 0 27px rgba(250, 185, 195, 0.5);
   animation: fadeIn 1.3s ease-out;
+}
+
+@media (max-width: 800px) {
+  header, section {
+    margin: 1rem;
+    padding: 2rem;
+    max-width: 90%;
+  }
 }
 
 h1, h2 {
