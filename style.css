@@ -16,7 +16,6 @@ header, section {
   border-radius: 20px;
   box-shadow: 0 0 27px rgba(250, 185, 195, 0.5);
   animation: fadeIn 1.3s ease-out;
-  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
