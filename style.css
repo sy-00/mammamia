@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #722b49;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header, section, footer {
+  padding: 3rem;
+  margin: 3rem auto;
+  max-width: 800px;
+  background: #fef0f5;
+  border-radius: 20px;
+  box-shadow: 0 0 27px rgba(250, 185, 195, 0.5);
+  animation: fadeIn 1.3s ease-out;
+}
+
+h1, h2 {
+  color: #d26a9b;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background: #f8cdda;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #f5a3c3;
+  transform: scale(1.1);
+}
+
+#choiceButtonPrimary {
+  background: #f5a3c3;
+}
+
+#choiceButtonPrimary:hover {
+  background: #d26a9b;
+}
+
+.choiceButton {
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#surprise-content img {
+  margin-top: 1rem;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes confetti {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.confetti {
+  position: absolute;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  background-color: #ff6d6d;
+  opacity: 0;
+  animation: confetti 2s infinite;
+  pointer-events: none;
+}
+
+.confetti:nth-child(odd) {
+  background-color: #ffb6c1;
+}
+
+.confetti:nth-child(even) {
+  background-color: #ff99cc;
+}

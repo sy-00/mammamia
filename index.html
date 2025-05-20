@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wszystkiego najlepszego!</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌸 Wszystkiego najlepszego z okazji dnia mamy! 🌸</h1>
+    <p>Smacznej kawusi i miłego poniedziałeczku.</p>
+  </header>
+
+  <section id="surprise">
+    <h2>Kliknij po niespodziankę!</h2>
+    <button onclick="showSurprise()">Pokaż</button>
+    <div id="surprise-content" class="hidden">
+        <p>Prawdziwe będzie w piątek</p>
+        <img src="https://tokwiaciarnia.pl/wp-content/uploads/2018/02/rafaello.jpg" alt="Rafaello" />
+        <div id="reaction-buttons" class="hidden">
+          <button class="choiceButton" onclick="alert('dobra to idziemy na Czechy na herbatke')">Chcę co innego</button>
+          <button class="choiceButton" id="choiceButtonPrimary" onclick="alert('ok :)')">Super mega wow</button>
+        </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
