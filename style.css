@@ -9,7 +9,7 @@ body {
 
 header, section {
   padding: 3rem;
-  margin: 3rem auto;
+  margin: 3rem;
   width: 100%;
   max-width: 800px;
   background: #fef0f5;
@@ -17,10 +17,6 @@ header, section {
   box-shadow: 0 0 27px rgba(250, 185, 195, 0.5);
   animation: fadeIn 1.3s ease-out;
   box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 800px) {
