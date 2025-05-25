@@ -2,6 +2,12 @@ function showSurprise() {
   document.getElementById('surprise-content').classList.remove('hidden');
   document.getElementById('reaction-buttons').classList.remove('hidden');
   generateConfetti();
+
+  const button = document.querySelector('#surprise button');
+  button.textContent = 'Confetti!';
+  button.style.backgroundColor = 'red';
+  button.style.border = '2px solid white';
+  button.style.color = 'white';
 }
 
 function generateConfetti() {
