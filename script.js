@@ -5,7 +5,7 @@ function showSurprise() {
 
   const button = document.querySelector('#surprise button');
   button.textContent = 'Confetti!';
-  button.style.backgroundColor = '#f4cccc';
+  button.style.backgroundColor = '#D12735';
   button.style.border = '2px solid white';
   button.style.color = 'white';
 }
